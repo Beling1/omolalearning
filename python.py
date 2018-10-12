@@ -8,13 +8,13 @@ def index():
 	
 @app.route("/VBA")
 def vba():
-    return render_template("vba.html")
+    return render_template("templates/vba.html")
 	
 @app.route("/PYTHON")
 def python():
-    return render_template("python.html")
+    return render_template("templates/python.html")
 	
 @app.route("/CFA")
 def cfa():
-    return render_template("cfa.html")
+    return render_template("templates/cfa.html")
 	
