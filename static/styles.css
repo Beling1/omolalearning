@@ -1,0 +1,156 @@
+ @media (max-width:1599px){
+	#menu_lateral{
+		width:100%; 
+	
+	}
+
+	#visuel{
+		width:100%; 		
+	}
+ }
+
+ @media (min-width:1600px){
+	#menu_lateral{
+		width:35%; 	
+	}
+
+	#visuel{
+		width:65%;		
+	}	
+ }
+ 
+ 
+* {
+    box-sizing:border-box;
+}
+
+
+#logo {
+	font-size: 50px;
+	margin:20px;
+	color :#31859c;
+    text-decoration: none;
+	#letter-spacing: 3px;
+	display: block;
+	width:100%;
+
+		}
+	
+.logo1:visited, .logo1:link, .logo1:active
+		{
+			text-decoration: none;
+			/* color:#4c7682; */
+			color:grey;
+		}	
+
+ .logo1:hover:hover{ 
+				color :#31859c;
+				position: relative;
+				}
+#navigation {
+	#font-size: 45px;
+	margin-left :20px;
+	margin-right :20px;
+	background-color:#31859c;
+	
+	display: block;
+	color:white;
+	position: relative;
+	#height:50px;
+	overflow: hidden;
+	}
+	
+.navelement{
+	float: left;
+	text-decoration: none;
+	color:white;
+	margin:0;
+	text-align:center;
+	outline: 0;
+	font-size: 30px;
+	padding: 14px 16px;
+}
+.navelement :visited,.navelement:link,.navelement:active{
+			text-decoration: none;
+			/* color:#4c7682; */
+			color:white;	
+}
+ .navelement:hover:hover{ 
+				position: relative;
+				/* background-color :#4c7682; */
+				background-color :#e6e9ef;
+				float: left;
+				color : black;
+					}
+		
+.titre_lat{
+		padding :0px 0px 0px 200px;
+	}
+
+.element_lateral{
+		width:100%;	
+		font-family: "Segoe UI",Arial,sans-serif;
+		text-decoration: none;
+		display: block;
+		padding: 2px 1px 1px 200px;
+		}
+
+.element_lateral:visited,.element_lateral:link,.element_lateral:active{
+		text-decoration:none;
+		/* color:#4c7682; */
+		color:black;	
+}
+
+.element_lateral:hover:hover{ 
+			position: relative;
+			/* background-color :#4c7682; */
+			background-color:#31859c;
+			float: left;
+			color:white;
+					}
+#conteneur{
+		/* overflow: hidden; */
+		margin-left:20px;
+		margin-right:20px;
+		/* height:100%; */
+		display:flex;
+		flex-wrap:wrap;
+}
+
+
+#conteneur >*{
+		/* display:inline; */
+		position: relative;
+		overflow: hidden;
+		float:left;
+		display:inline;
+		
+}
+
+#menu_lateral{
+		font-size:25px;
+		background-color:#e6e9ef;
+		display:block;
+		}
+		
+#visuel{
+	/* float:left; */
+	/* background-color :lightblue; */
+	/* width:65%; */
+	/* height:700px; */
+	/* height: 500px; */
+	/* border-style: solid; */
+    /* border-color: white; */
+	/* border-width:20px; */
+	
+	}
+
+.presentation{
+	border-width: 10px;
+	border-color: lightblue;
+	}	
+
+
+
+
+
