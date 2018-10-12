@@ -17,4 +17,6 @@ def python():
 @app.route("/CFA")
 def cfa():
     return render_template("templates/cfa.html")
-	
+
+if __name__ == "__main__":
+    app.run()
